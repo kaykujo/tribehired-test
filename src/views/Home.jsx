@@ -52,7 +52,7 @@ class Home extends React.Component {
 		}).catch(err => {
 			console.error(err.response.data.message);
 
-			this.setState({ isLoading: true });
+			this.setState({ isLoading: false });
 		});
 	}
 
